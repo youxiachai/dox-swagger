@@ -1,0 +1,16 @@
+{
+    "apiVersion": "1.0.0",
+    "swaggerVersion": "1.2",
+    "basePath" : "",
+    "resourcePath" : "",
+    "apis": [],
+    "models" : {},
+    "produces" : [
+        "application/json"
+    ],
+    "consumes" : [],
+    "authorizations": {
+
+    }
+
+}
