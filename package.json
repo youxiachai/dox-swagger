@@ -1,6 +1,6 @@
 {
   "name": "dox-swagger",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "dox for swagger",
   "main": "index.js",
   "scripts": {
