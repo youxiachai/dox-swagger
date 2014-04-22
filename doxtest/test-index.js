@@ -9,14 +9,20 @@ var swagger  = require('../lib/dox-swagger'),
 
 var basePath = path.resolve('.');
 
-var codeDir = path.join(basePath, 'test-code-nest');
+var codeDir = path.join(basePath, 'test-api');
 
 var files = fs.readdirSync(codeDir);
 console.log(files)
 
 files.forEach(function (item) {
 
-    swagger.doxSwagger(path.join(codeDir, item), {basePath : 'http://localhost:5000', output : 'api2'});
+    var point = item.lastIndexOf(".");
+
+    var type = item.substr(point);
+
+    if(type === '.js'){
+        swagger.doxSwagger(path.join(codeDir, item), {basePath : 'http://localhost:5000', output : 'api2'});
+    }
 })
 
 //swagger.doxSwagger('test-code/user.js', {basePath : 'http://localhost:5000'});
