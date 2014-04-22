@@ -23,7 +23,7 @@ files.forEach(function (item) {
 //
 //
 //
-fs.writeFileSync('./api2/index.html', JSON.stringify(swagger.apiResourceList));
+fs.writeFileSync('./api2/api-docs', JSON.stringify(swagger.apiResourceList));
 
 
 
