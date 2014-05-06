@@ -9,7 +9,7 @@ var swagger  = require('../lib/dox-swagger'),
 
 var basePath = path.resolve('.');
 
-var codeDir = path.join(basePath, 'test-api');
+var codeDir = path.join(basePath, 'test-code-nest');
 
 var files = fs.readdirSync(codeDir);
 console.log(files)
