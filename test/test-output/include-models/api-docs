@@ -1,0 +1,1 @@
+{"apiVersion":"1.0.0","swaggerVersion":"1.2","authorizations":{},"apis":[{"path":"http://localhost:5000/include-models/pet","description":""}],"info":{"title":"","description":"","termsOfServiceUrl":"","contact":"","license":"","licenseUrl":""}}

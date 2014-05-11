@@ -4,7 +4,7 @@
   "description": "dox for swagger",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "mocha -t 50000 --reporter spec"
   },
   "author": "youxiachai",
   "license": "MIT",
