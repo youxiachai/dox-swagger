@@ -1,6 +1,6 @@
 {
   "name": "dox-swagger",
-  "version": "0.1.17",
+  "version": "0.2.1",
   "description": "dox for swagger",
   "main": "index.js",
   "scripts": {
@@ -9,19 +9,20 @@
   "author": "youxiachai",
   "license": "MIT",
   "dependencies": {
-    "dox": "^0.4.4"
+    "dox": "^0.4.4",
+    "uuid": "~1.4.1"
   },
   "keywords": [
-        "dox",
-        "swagger",
-        "doc",
-        "api"
-    ],
-   "repository": {
-        "type": "git",
-        "url": "git@github.com:youxiachai/dox-swagger.git"
-    },
-    "bugs": {
-        "url": "https://github.com/youxiachai/dox-swagger/issues"
-    }
+    "dox",
+    "swagger",
+    "doc",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:youxiachai/dox-swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youxiachai/dox-swagger/issues"
+  }
 }
