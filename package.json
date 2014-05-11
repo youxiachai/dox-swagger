@@ -1,6 +1,6 @@
 {
   "name": "dox-swagger",
-  "version": "0.2.2",
+  "version": "0.2.5",
   "description": "dox for swagger",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/youxiachai/dox-swagger/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "should": "~3.3.1"
   }
 }
